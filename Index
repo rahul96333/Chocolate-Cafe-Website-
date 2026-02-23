@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rahul Chocolate Café</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+   
+    <h1>Rahul Chocolate Café</h1>
+    <nav>
+      <ul>
+        <li><a href="#specials">Special Offers</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="specials" class="specials">
+    <h2>Special Offers</h2>
+    <ul>
+      <li><strong>Hot Choco Combo:</strong> Hot chocolate + Brownie for just ₹ 500</li>
+      <li><strong>Sweet Tooth Deal:</strong> Buy 2 desserts, get 1 free!</li>
+      <li><strong>Happy Hour:</strong> 20% off on all drinks from 2–4 PM</li>
+    </ul>
+  </section>
+
+  <section id="menu" class="menu">
+    <h2>Our Menu</h2>
+    
+    <!-- Featured Dessert Image -->
+    <div class="featured-dessert">
+      <a href="lava-cake-large.jpg" target="_blank">
+        <img src="https://images.unsplash.com/photo-1597648152428-f883fbc9c873?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Chocolate Lava Cake" />
+      </a>
+      <p style="text-align: center;"><em>Click to view our signature Lava Cake in full glory!</em></p>
+    </div>
+
+    <ol>
+      <li>
+        <h3>Classic Hot Chocolate - ₹ 300</h3>
+        <ul>
+          <li>Rich Belgian cocoa</li>
+          <li>Steamed milk</li>
+          <li>Served with marshmallows</li>
+        </ul>
+      </li>
+      <li>
+        <h3>Chocolate Lava Cake - ₹ 400</h3>
+        <ul>
+          <li>Molten dark chocolate center</li>
+          <li>Served warm with ice cream</li>
+          <li>Drizzled with chocolate syrup</li>
+        </ul>
+      </li>
+      <li>
+        <h3>Choco-Coffee Fusion - ₹ 300</h3>
+        <ul>
+          <li>Blend of espresso and cocoa</li>
+          <li>Whipped cream topping</li>
+          <li>Chocolate shavings</li>
+        </ul>
+      </li>
+    </ol>
+  </section>
+
+  <footer id="contact">
+    <h2>Contact Us</h2>
+    <p>📍 123 Cocoa Lane, Sweet City</p>
+    <p>📞 (123) 456-7890</p>
+    <p>📧 contact@chocoblisscafe.com</p>
+  </footer>
+</body>
+</html>
